@@ -5,6 +5,7 @@ public class AdjustIngredients {
         HashMap<String, String> map = new HashMap<>();
         map.put("spinach", "dirt");
         map.put("ice cream", "cherry");
+        System.out.println("Map before modifying: " + map);
         System.out.println("Map after modifying: "+modifyMap(map));
 
     }
