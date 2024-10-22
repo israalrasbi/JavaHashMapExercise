@@ -11,6 +11,10 @@ public class ValueFollower {
     }
 
     public static HashMap<String, String> modifyMap(HashMap<String, String> map) {
+        //check if both key exist, if yes return the map
+        if (map.containsKey("a") && map.containsKey("b")) {
+            return map;
+        }
         //check if a exist
         if(map.containsKey("a") && !map.containsKey("b")){
             map.put("b", map.get("a"));
