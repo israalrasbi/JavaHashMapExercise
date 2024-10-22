@@ -31,9 +31,9 @@ public class FirstCharacterStringGrouper {
 
         //print the result
         System.out.println("Original array: " + Arrays.toString(arr));
-        System.out.println("Result: " + (firstChar(arr)));
+        System.out.println("Result: " + (groupFirstChar(arr)));
     }
-    public static Map<String, String> firstChar(String[] arr) {
+    public static Map<String, String> groupFirstChar(String[] arr) {
         Map<String,String>map = new HashMap<>();
         for (String currentString : arr) {
             //get the firstChar which is the key
