@@ -30,7 +30,7 @@ public class MultiplicityChecker {
 
         //print the result
         System.out.println("Original array: " + Arrays.toString(arr));
-        System.out.println("Result after swaps: " + (wordMultiple(arr)));
+        System.out.println("Result: " + (wordMultiple(arr)));
 
     }
 
