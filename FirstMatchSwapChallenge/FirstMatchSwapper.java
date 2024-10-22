@@ -8,12 +8,12 @@ public class FirstMatchSwapper {
         String[] arr3 = {"ax", "bx", "ay", "by", "ai", "aj", "bx", "by"};
 
         //print result
-        System.out.println("Result of first array: " + Arrays.toString(firstSwap(arr1)));
-        System.out.println("Result of second array: " + Arrays.toString(firstSwap(arr2)));
-        System.out.println("Result of third array: " + Arrays.toString(firstSwap(arr3)));
+        System.out.println("Result of first array: " + Arrays.toString(swapOnFirstMatch(arr1)));
+        System.out.println("Result of second array: " + Arrays.toString(swapOnFirstMatch(arr2)));
+        System.out.println("Result of third array: " + Arrays.toString(swapOnFirstMatch(arr3)));
     }
 
-    public static String[] firstSwap(String[] arr) {
+    public static String[] swapOnFirstMatch(String[] arr) {
         HashMap<String, Integer> map = new HashMap<>();
         for (int i = 0; i < arr.length; i++) {
             //get the first char from the current string
