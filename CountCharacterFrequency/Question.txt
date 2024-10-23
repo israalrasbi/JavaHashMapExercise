@@ -1,0 +1,17 @@
+Write a program that takes a string input from the user and counts the frequency of each character while ignoring case, excluding non-alphabetic characters, and grouping characters into vowels and consonants. Use two separate HashMaps for vowels and consonants to store their frequencies, and print the results for each group in sorted order (alphabetically).
+
+Example Input:
+
+Hello, World! 123
+
+Example Output:
+Vowels:
+e: 1
+o: 2
+
+Consonants:
+d: 1
+h: 1
+l: 3
+r: 1
+w: 1
