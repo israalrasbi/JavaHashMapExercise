@@ -1,0 +1,12 @@
+Write a program that takes an array of integers as input and identifies all the duplicate elements, their positions, and how many times they appear. Additionally, calculate the sum of all distinct duplicate numbers (i.e., sum each duplicate only once, regardless of how many times it appears).
+
+Example Input:
+[2, 3, 4, 2, 5, 6, 4, 3, 7, 3]
+
+Example Output:
+
+2: Occurs 2 times at positions [0, 3]
+3: Occurs 3 times at positions [1, 7, 9]
+4: Occurs 2 times at positions [2, 6]
+
+Sum of distinct duplicate numbers: 9
